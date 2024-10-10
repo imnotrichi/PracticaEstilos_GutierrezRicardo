@@ -19,7 +19,9 @@ a {
 h1 {
     font-family: "Playfair Display";
     font-weight: 800;
-    font-size: 3.5rem;
+    font-size: 4.1rem;
+    width: 95%;
+    margin-bottom: 1.2rem;
 }
 
 nav {
@@ -32,11 +34,13 @@ nav {
     padding: 0.9rem 2rem;
     display: flex;
     border-radius: 3rem 3rem;
+    justify-content: space-between;
 }
 
 .logo {
     font-family: "Playfair Display";
     font-weight: 800;
+    height: fit-content;
 }
 
 nav>a {
@@ -47,6 +51,8 @@ nav>a {
 nav ul {
     list-style-type: none;
     display: flex;
+    margin: 0;
+    gap: 3.5rem;
 }
 
 nav>ul a {
@@ -59,6 +65,7 @@ header {
     margin: auto;
     max-width: 1800px;
     height: 80vh;
+    display: flex;
 }
 
 header div {
@@ -71,6 +78,17 @@ header img {
 
 header a {
     color: #021B2E;
+    margin-right: 2rem;
+}
+
+header p {
+    width: 95%;
+    margin-bottom: 3rem;
+}
+
+.slogan {
+    width: 95%;
+    font-size: 1.5rem;
 }
 
 .orange {
@@ -94,16 +112,20 @@ header a {
 .card {
     background-color: #FAF9EF;
     border-radius: 1rem 1rem;
+    padding: 2rem 1.5rem;
 }
 
 .card-vertical {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 2rem 1.5rem;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .card-horizontal {
+    margin-top: 2rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
     padding-left: 1.5rem;
@@ -123,11 +145,13 @@ section {
     border-width: 1.5px;
     padding: 1.3rem 1.5rem;
     border-radius: 1rem;
+    margin-top: 1rem;
 }
 
 .booking form{
+    width: 100%;
     display: flex;
-    gap: 0.5rem;
+    justify-content: space-between;
 }
 
 .booking input[type="submit"] {
@@ -136,9 +160,92 @@ section {
     color: #EFE4CE;
 }
 
+section>h5 {
+    color: #E5A33C;
+    font-size: 1.2rem;
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+section>h2 {
+    margin-top: 0rem;
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+
 .input-booking {
     display: flex;
     flex-direction: column;
 }
 
+.cards-container {
+    display: flex;
+    gap: 1rem 5rem;
+    align-items: center;
+}
+
+.cards-container img {
+    width: 55%;
+}
+
+.cards-container h3 {
+    font-family: "Playfair Display";
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+}
+
+.cards-container .button {
+    margin-bottom: 0rem;
+}
+
+.comments {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem 6rem;
+}
+
+.comments h2 {
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.comments h2 span {
+    color: #E5A33C;
+    font-size: 1.2rem;
+}
+
+article{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article img {
+    position: relative;
+    width: 30%;
+}
+
+article h4 {
+    font-family: "Playfair Display";
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0 2rem;
+}
+
+article span {
+    color: #D8D1C1;
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}
 
